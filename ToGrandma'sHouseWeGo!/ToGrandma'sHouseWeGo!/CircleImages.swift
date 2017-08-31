@@ -9,7 +9,7 @@
 import UIKit
 @IBDesignable
 
-
+// Class to create circular images on ImageViews
 class CircleImages: UIImageView {
 
 	override func awakeFromNib() {

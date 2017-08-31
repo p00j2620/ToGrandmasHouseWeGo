@@ -10,6 +10,7 @@ import UIKit
 
 @IBDesignable
 
+// Class to apply rounded edges on UIbuttons
 class RoundedButton: UIButton {
 
 	override func awakeFromNib() {

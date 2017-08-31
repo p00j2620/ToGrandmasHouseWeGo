@@ -9,7 +9,10 @@
 import Foundation
 import UIKit
 
+// Setting up properties for kid objects
 struct Kid {
 	let name: String
 	var numberOfWins: Int
+	let happyImage: UIImage
+	let sadImage: UIImage
 }
