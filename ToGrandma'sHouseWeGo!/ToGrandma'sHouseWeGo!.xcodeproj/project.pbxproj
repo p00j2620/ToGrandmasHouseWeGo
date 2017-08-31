@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001AC94B1F588F1200B208A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001AC94A1F588F1200B208A5 /* AppDelegate.swift */; };
+		001AC94D1F588F1200B208A5 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001AC94C1F588F1200B208A5 /* HomeController.swift */; };
+		001AC9501F588F1200B208A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001AC94E1F588F1200B208A5 /* Main.storyboard */; };
+		001AC9521F588F1200B208A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001AC9511F588F1200B208A5 /* Assets.xcassets */; };
+		001AC9551F588F1200B208A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001AC9531F588F1200B208A5 /* LaunchScreen.storyboard */; };
+		001AC9601F588F1200B208A5 /* ToGrandma_sHouseWeGo_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001AC95F1F588F1200B208A5 /* ToGrandma_sHouseWeGo_Tests.swift */; };
+		001AC96E1F589A6100B208A5 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001AC96D1F589A6100B208A5 /* RoundedButton.swift */; };
+		001AC9701F589A8C00B208A5 /* CircleImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001AC96F1F589A8C00B208A5 /* CircleImages.swift */; };
+		001AC9721F58A75E00B208A5 /* KidStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001AC9711F58A75E00B208A5 /* KidStruct.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		001AC95C1F588F1200B208A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001AC93F1F588F1200B208A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 001AC9461F588F1200B208A5;
+			remoteInfo = "ToGrandma'sHouseWeGo!";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001AC9471F588F1200B208A5 /* ToGrandma'sHouseWeGo!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToGrandma'sHouseWeGo!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		001AC94A1F588F1200B208A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		001AC94C1F588F1200B208A5 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		001AC94F1F588F1200B208A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		001AC9511F588F1200B208A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		001AC9541F588F1200B208A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		001AC9561F588F1200B208A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		001AC95B1F588F1200B208A5 /* ToGrandma'sHouseWeGo!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ToGrandma'sHouseWeGo!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		001AC95F1F588F1200B208A5 /* ToGrandma_sHouseWeGo_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToGrandma_sHouseWeGo_Tests.swift; sourceTree = "<group>"; };
+		001AC9611F588F1200B208A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		001AC96D1F589A6100B208A5 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		001AC96F1F589A8C00B208A5 /* CircleImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImages.swift; sourceTree = "<group>"; };
+		001AC9711F58A75E00B208A5 /* KidStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KidStruct.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		001AC9441F588F1200B208A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001AC9581F588F1200B208A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001AC93E1F588F1200B208A5 = {
+			isa = PBXGroup;
+			children = (
+				001AC9491F588F1200B208A5 /* ToGrandma'sHouseWeGo! */,
+				001AC95E1F588F1200B208A5 /* ToGrandma'sHouseWeGo!Tests */,
+				001AC9481F588F1200B208A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		001AC9481F588F1200B208A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				001AC9471F588F1200B208A5 /* ToGrandma'sHouseWeGo!.app */,
+				001AC95B1F588F1200B208A5 /* ToGrandma'sHouseWeGo!Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		001AC9491F588F1200B208A5 /* ToGrandma'sHouseWeGo! */ = {
+			isa = PBXGroup;
+			children = (
+				001AC96C1F588F7B00B208A5 /* Controller */,
+				001AC96B1F588F7500B208A5 /* View */,
+				001AC96A1F588F6E00B208A5 /* Model */,
+				001AC94A1F588F1200B208A5 /* AppDelegate.swift */,
+				001AC94E1F588F1200B208A5 /* Main.storyboard */,
+				001AC9511F588F1200B208A5 /* Assets.xcassets */,
+				001AC9531F588F1200B208A5 /* LaunchScreen.storyboard */,
+				001AC9561F588F1200B208A5 /* Info.plist */,
+			);
+			path = "ToGrandma'sHouseWeGo!";
+			sourceTree = "<group>";
+		};
+		001AC95E1F588F1200B208A5 /* ToGrandma'sHouseWeGo!Tests */ = {
+			isa = PBXGroup;
+			children = (
+				001AC95F1F588F1200B208A5 /* ToGrandma_sHouseWeGo_Tests.swift */,
+				001AC9611F588F1200B208A5 /* Info.plist */,
+			);
+			path = "ToGrandma'sHouseWeGo!Tests";
+			sourceTree = "<group>";
+		};
+		001AC96A1F588F6E00B208A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				001AC9711F58A75E00B208A5 /* KidStruct.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		001AC96B1F588F7500B208A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				001AC96D1F589A6100B208A5 /* RoundedButton.swift */,
+				001AC96F1F589A8C00B208A5 /* CircleImages.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		001AC96C1F588F7B00B208A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				001AC94C1F588F1200B208A5 /* HomeController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		001AC9461F588F1200B208A5 /* ToGrandma'sHouseWeGo! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001AC9641F588F1200B208A5 /* Build configuration list for PBXNativeTarget "ToGrandma'sHouseWeGo!" */;
+			buildPhases = (
+				001AC9431F588F1200B208A5 /* Sources */,
+				001AC9441F588F1200B208A5 /* Frameworks */,
+				001AC9451F588F1200B208A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ToGrandma'sHouseWeGo!";
+			productName = "ToGrandma'sHouseWeGo!";
+			productReference = 001AC9471F588F1200B208A5 /* ToGrandma'sHouseWeGo!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		001AC95A1F588F1200B208A5 /* ToGrandma'sHouseWeGo!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001AC9671F588F1200B208A5 /* Build configuration list for PBXNativeTarget "ToGrandma'sHouseWeGo!Tests" */;
+			buildPhases = (
+				001AC9571F588F1200B208A5 /* Sources */,
+				001AC9581F588F1200B208A5 /* Frameworks */,
+				001AC9591F588F1200B208A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				001AC95D1F588F1200B208A5 /* PBXTargetDependency */,
+			);
+			name = "ToGrandma'sHouseWeGo!Tests";
+			productName = "ToGrandma'sHouseWeGo!Tests";
+			productReference = 001AC95B1F588F1200B208A5 /* ToGrandma'sHouseWeGo!Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		001AC93F1F588F1200B208A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Arthur Pujols";
+				TargetAttributes = {
+					001AC9461F588F1200B208A5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4S9VPH83H7;
+						ProvisioningStyle = Automatic;
+					};
+					001AC95A1F588F1200B208A5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4S9VPH83H7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 001AC9461F588F1200B208A5;
+					};
+				};
+			};
+			buildConfigurationList = 001AC9421F588F1200B208A5 /* Build configuration list for PBXProject "ToGrandma'sHouseWeGo!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 001AC93E1F588F1200B208A5;
+			productRefGroup = 001AC9481F588F1200B208A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				001AC9461F588F1200B208A5 /* ToGrandma'sHouseWeGo! */,
+				001AC95A1F588F1200B208A5 /* ToGrandma'sHouseWeGo!Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		001AC9451F588F1200B208A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001AC9551F588F1200B208A5 /* LaunchScreen.storyboard in Resources */,
+				001AC9521F588F1200B208A5 /* Assets.xcassets in Resources */,
+				001AC9501F588F1200B208A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001AC9591F588F1200B208A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		001AC9431F588F1200B208A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001AC94D1F588F1200B208A5 /* HomeController.swift in Sources */,
+				001AC9701F589A8C00B208A5 /* CircleImages.swift in Sources */,
+				001AC96E1F589A6100B208A5 /* RoundedButton.swift in Sources */,
+				001AC94B1F588F1200B208A5 /* AppDelegate.swift in Sources */,
+				001AC9721F58A75E00B208A5 /* KidStruct.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001AC9571F588F1200B208A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001AC9601F588F1200B208A5 /* ToGrandma_sHouseWeGo_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		001AC95D1F588F1200B208A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 001AC9461F588F1200B208A5 /* ToGrandma'sHouseWeGo! */;
+			targetProxy = 001AC95C1F588F1200B208A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		001AC94E1F588F1200B208A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001AC94F1F588F1200B208A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		001AC9531F588F1200B208A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001AC9541F588F1200B208A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		001AC9621F588F1200B208A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		001AC9631F588F1200B208A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		001AC9651F588F1200B208A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4S9VPH83H7;
+				INFOPLIST_FILE = "ToGrandma'sHouseWeGo!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JacallDev.ToGrandma-sHouseWeGo-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		001AC9661F588F1200B208A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4S9VPH83H7;
+				INFOPLIST_FILE = "ToGrandma'sHouseWeGo!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JacallDev.ToGrandma-sHouseWeGo-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		001AC9681F588F1200B208A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4S9VPH83H7;
+				INFOPLIST_FILE = "ToGrandma'sHouseWeGo!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JacallDev.ToGrandma-sHouseWeGo-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToGrandma'sHouseWeGo!.app/ToGrandma'sHouseWeGo!";
+			};
+			name = Debug;
+		};
+		001AC9691F588F1200B208A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4S9VPH83H7;
+				INFOPLIST_FILE = "ToGrandma'sHouseWeGo!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JacallDev.ToGrandma-sHouseWeGo-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToGrandma'sHouseWeGo!.app/ToGrandma'sHouseWeGo!";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		001AC9421F588F1200B208A5 /* Build configuration list for PBXProject "ToGrandma'sHouseWeGo!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001AC9621F588F1200B208A5 /* Debug */,
+				001AC9631F588F1200B208A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		001AC9641F588F1200B208A5 /* Build configuration list for PBXNativeTarget "ToGrandma'sHouseWeGo!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001AC9651F588F1200B208A5 /* Debug */,
+				001AC9661F588F1200B208A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		001AC9671F588F1200B208A5 /* Build configuration list for PBXNativeTarget "ToGrandma'sHouseWeGo!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001AC9681F588F1200B208A5 /* Debug */,
+				001AC9691F588F1200B208A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 001AC93F1F588F1200B208A5 /* Project object */;
+}

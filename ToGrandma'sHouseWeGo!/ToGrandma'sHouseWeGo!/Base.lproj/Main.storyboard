@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeController" customModule="ToGrandma_sHouseWeGo_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WEt-fc-SA3">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who's Going To Grandma's!?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lrQ-r3-ZNf">
+                                        <rect key="frame" x="42" y="39" width="331" height="111"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="111" id="EZZ-MY-2WE"/>
+                                            <constraint firstAttribute="width" constant="331" id="fqL-S2-eEW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="35"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Try Again!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OWr-I9-sME">
+                                        <rect key="frame" x="8" y="517" width="398" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="XY0-Sb-5Da"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="35"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="OWr-I9-sME" firstAttribute="centerX" secondItem="WEt-fc-SA3" secondAttribute="centerX" id="9N1-PD-xvA"/>
+                                    <constraint firstItem="OWr-I9-sME" firstAttribute="leading" secondItem="WEt-fc-SA3" secondAttribute="leading" constant="8" id="OOV-yb-9A6"/>
+                                    <constraint firstItem="lrQ-r3-ZNf" firstAttribute="top" secondItem="WEt-fc-SA3" secondAttribute="top" constant="39" id="e8K-65-izF"/>
+                                    <constraint firstAttribute="trailing" secondItem="OWr-I9-sME" secondAttribute="trailing" constant="8" id="gFE-XL-3Jy"/>
+                                    <constraint firstAttribute="bottom" secondItem="OWr-I9-sME" secondAttribute="bottom" constant="119" id="xPM-TZ-PQS"/>
+                                    <constraint firstItem="lrQ-r3-ZNf" firstAttribute="centerX" secondItem="WEt-fc-SA3" secondAttribute="centerX" id="zlL-nQ-eRX"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="67z-3g-CVW" userLabel="Jacob Stack View">
+                                <rect key="frame" x="30" y="170" width="160" height="290"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="JacobHappy" translatesAutoresizingMaskIntoConstraints="NO" id="U57-Py-p2q" userLabel="Jacob Image" customClass="CircleImages" customModule="ToGrandma_sHouseWeGo_" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="160" id="amC-Pe-EBZ"/>
+                                            <constraint firstAttribute="width" constant="160" id="ofy-AE-qoF"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ysA-K3-NeD">
+                                        <rect key="frame" x="0.0" y="175" width="160" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="LKa-VC-a6x"/>
+                                            <constraint firstAttribute="width" constant="160" id="UxP-f3-n5Z"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="30"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="geJ-bs-FRH" customClass="RoundedButton" customModule="ToGrandma_sHouseWeGo_" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="240" width="160" height="50"/>
+                                        <color key="backgroundColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="160" id="iSa-yY-K3F"/>
+                                            <constraint firstAttribute="height" constant="50" id="n0p-5j-aXb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="17"/>
+                                        <state key="normal" title="Am I lucky!?">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="jacobButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FDO-gH-lgA"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="290" id="6Zf-pG-c61"/>
+                                    <constraint firstAttribute="width" constant="160" id="Vo9-0b-tUD"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ibX-Vl-p5L" userLabel="Allison Stack View">
+                                <rect key="frame" x="224" y="170" width="160" height="290"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AllisonHappy2" translatesAutoresizingMaskIntoConstraints="NO" id="iiL-XQ-eD3" userLabel="Allison Image" customClass="CircleImages" customModule="ToGrandma_sHouseWeGo_" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="160" id="Eaj-Ih-Sfk"/>
+                                            <constraint firstAttribute="height" constant="160" id="y8r-wB-dNY"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s4I-1Y-tJo">
+                                        <rect key="frame" x="0.0" y="175" width="160" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="160" id="bPp-Ta-1nA"/>
+                                            <constraint firstAttribute="height" constant="50" id="cSa-gs-TXq"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="30"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2d-jx-Ic4" customClass="RoundedButton" customModule="ToGrandma_sHouseWeGo_" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="240" width="160" height="50"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="BwH-P1-Myj"/>
+                                            <constraint firstAttribute="width" constant="160" id="aUr-qR-8Tt"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="17"/>
+                                        <state key="normal" title="Am I lucky!?">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="allisonButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d2g-Wq-3GJ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="ah0-nN-LvP"/>
+                                    <constraint firstAttribute="height" constant="290" id="wgS-Tr-Pli"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="WEt-fc-SA3" secondAttribute="trailing" id="ETs-zz-lHJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ibX-Vl-p5L" secondAttribute="trailing" constant="10" id="IA3-hN-X0D"/>
+                            <constraint firstItem="67z-3g-CVW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="V88-NG-kpn"/>
+                            <constraint firstItem="WEt-fc-SA3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="oPg-gT-O6r"/>
+                            <constraint firstItem="67z-3g-CVW" firstAttribute="top" secondItem="ibX-Vl-p5L" secondAttribute="top" id="pd0-W6-sxA"/>
+                            <constraint firstItem="WEt-fc-SA3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="uyD-iZ-j7e"/>
+                            <constraint firstItem="67z-3g-CVW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="150" id="vSi-gg-Uj3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WEt-fc-SA3" secondAttribute="bottom" id="xhN-MT-bRQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="allisonImage" destination="iiL-XQ-eD3" id="Zyp-RA-24S"/>
+                        <outlet property="allisonScore" destination="s4I-1Y-tJo" id="Zjo-U5-CdS"/>
+                        <outlet property="jacobImage" destination="U57-Py-p2q" id="F5Y-tk-UjW"/>
+                        <outlet property="jacobScore" destination="ysA-K3-NeD" id="5kD-4a-vxG"/>
+                        <outlet property="winLabel" destination="OWr-I9-sME" id="skR-sh-wwj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-139.13043478260872" y="136.95652173913044"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AllisonHappy2" width="3024" height="4032"/>
+        <image name="JacobHappy" width="3024" height="4032"/>
+    </resources>
+</document>
